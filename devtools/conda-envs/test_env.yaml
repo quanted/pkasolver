@@ -10,7 +10,7 @@ dependencies:
  - cudatoolkit
  - torchvision
  - torchaudio
- - python
+ - python=3.11
    # Testing
  - pytest
  - pytest-cov
