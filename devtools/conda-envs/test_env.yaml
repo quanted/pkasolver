@@ -10,7 +10,6 @@ dependencies:
  - cudatoolkit
  - torchvision
  - torchaudio
- - python=3.11
    # Testing
  - pytest
  - pytest-cov
@@ -21,9 +20,9 @@ dependencies:
  - svgutils
  - cairosvg
  - ipython
- - pip
  - pip:
-     - torch-geometric==2.0.1
+     # - torch-geometric==2.0.1
+     - torch-geometric
      - torch-sparse
      - torch-scatter
      - molvs
