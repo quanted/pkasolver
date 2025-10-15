@@ -21,8 +21,8 @@ dependencies:
  - cairosvg
  - ipython
  - pip:
-     # - torch-geometric==2.0.1
-     - torch-geometric
+     - torch-geometric==2.0.1
+     # - torch-geometric
      - torch-sparse
      - torch-scatter
      - molvs
